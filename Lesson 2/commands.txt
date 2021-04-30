@@ -1,0 +1,13 @@
+CREATE DATABASE example; - sozdat bazu dannih (example)
+
+SHOW DATABASES; - prosmotr bas dannih
+
+USE EXAMPLE; - ISPOLZOVAT BAZU DANNIH (EXAMPLE)
+
+CREATE TABLE users (id INT, name VARCHAR(20) ); - sozdat tablicu (users) 
+
+DESCRIBE users; - prosmotr sodergimogo tablicy (users)
+
+mysqldump -u root -p - sozdanie dampa
+
+mysql -u root -p sample < example.sql - zagruzka dampa v BD sample
